@@ -23,6 +23,7 @@ public class BookControler {
 	
 	@Autowired 
 	private BookService bookService;
+	private BookService bookServices;
 	
 	//get all Book Handler
 	@GetMapping("/books")
